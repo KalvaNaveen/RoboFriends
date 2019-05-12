@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: 'SEGA LOGO FONT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1{
+    font-family: 'SEGA LOGO FONT';
+    color: #0ccac4;
+    font-weight: 400;
+}
+
+.loading{
+    animation: load infinite;
+}
+
+@keyframes load{
+    0%   {transform: rotate(180deg)}
+    100%  {transform: rotate(270deg)}
+}
